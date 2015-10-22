@@ -11,6 +11,11 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise'
+gem 'sabisu_rails', github: "IcaliaLabs/sabisu-rails"
+gem 'furatto'
+gem "compass-rails", github: "Compass/compass-rails", branch: "master"
+gem 'font-awesome-rails'
+gem 'simple_form'
 
 group :development, :test do
   gem 'byebug'
